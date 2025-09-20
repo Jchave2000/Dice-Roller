@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="rollDice()">
+    <div class="app">
+        <h1>Dice Roller 🎲</h1>
+        <p>Click "Roll Dice" to roll five 6-sided dice, Yahtzee!</p>
+        
+        <div class="dice-container">
+            <label for="die1">Die 1:</label>
+            <input type="text" id="die1" readonly>
+            
+            <label for="die2">Die 2:</label>
+            <input type="text" id="die2" readonly>
+            
+            <label for="die3">Die 3:</label>
+            <input type="text" id="die3" readonly>
+            
+            <label for="die4">Die 4:</label>
+            <input type="text" id="die4" readonly>
+            
+            <label for="die5">Die 5:</label>
+            <input type="text" id="die5" readonly>
+        </div>
+        
+        <button id="rollBtn" autofocus onclick="rollDice()">Roll Dice</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

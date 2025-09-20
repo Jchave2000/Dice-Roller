@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #bce6d2;
+    text-align: center;
+    margin: 0;
+    padding: 25px;
+}
+
+.app {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.dice-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    text-align: right;
+    padding-right: 10px;
+}
+
+input {
+    text-align: right;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #f9f9f9;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #45a049;
+}
